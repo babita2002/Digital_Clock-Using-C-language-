@@ -11,6 +11,7 @@ In this C program, the digital clock will start with the time 00:00:00. Then it 
 
 int main() {
    int hour = 0;
+   
    int minute = 0;
    int second = 0;
    
