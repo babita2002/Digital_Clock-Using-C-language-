@@ -8,7 +8,6 @@ In this C program, the digital clock will start with the time 00:00:00. Then it 
 #include <time.h>
 #include <unistd.h>
 #include <stdlib.h>
-
 int main() {
    int hour = 0;
    int minute = 0;
@@ -17,10 +16,8 @@ int main() {
        // Clear the output on screen
        // for windows use system("cls")
        system("clear"); 
-       
        // Print the time in HH : MM : SS format
-       printf("%02d : %02d : %02d ",hour,minute,second);
-       
+       printf("%02d : %02d : %02d ",hour,minute,second); 
        // Clear the output buffer in gcc
        fflush(stdout);
        
