@@ -4,15 +4,16 @@ In this C program, the digital clock will start with the time 00:00:00. Then it 
 // A digital clock using C
 
 // Import the header files
+
 #include <stdio.h>
 #include <time.h>
 #include <unistd.h>
 #include <stdlib.h>
+
 int main() {
-  int hour = 0;
+   int hour = 0;
    int minute = 0;
    int second = 0;
-  
    while(1) {
        // Clear the output on screen
        // for windows use system("cls")
@@ -49,4 +50,3 @@ int main() {
    }
    return 0;
 }
- 
